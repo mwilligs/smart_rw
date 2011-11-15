@@ -1,0 +1,49 @@
+.clear{
+    clear: both;
+}
+
+div#smarts .image{
+	float: left;
+	width: 10%;
+}
+
+div#smarts .content{
+	float: left;
+	width: 80%;
+}
+
+div#smarts .content h2{
+	margin-top: 0;
+}
+
+div#smarts .price{
+	float: left;
+	width: 10%;
+    font-weight: bold;
+    text-align: left;
+}
+
+/*#banner{
+    float:left;
+    width: 50%;
+}*/
+
+#columns #side{
+    float: left;
+    width: 15%;
+}
+#columns #side a{
+    display: block;
+}
+
+#columns #main{
+    float: left;
+    width: 85%;
+}
+
+#TotalCart{
+    font-weight: bold;
+    color: #ff1493;
+    font-size: 20px;
+    text-decoration: blink;
+}

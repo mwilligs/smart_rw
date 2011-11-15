@@ -1,0 +1,18 @@
+<%#
+    1) Buscar el elemento HTML contenedror del carrito
+    2) Modificar el HTML de ese elemento
+%>
+
+<% cart_html = render @cart, :message => 'Carrito de compras' %>
+jQuery('#cart').html("<%= escape_javascript(cart_html) %>");
+
+jQuery('#cart').animate(
+        {opacity : 0.10},
+        4000,
+        function(){
+            jQuery(this).animate(
+            {opacity : 1},
+             3000
+             );
+        }
+);
